@@ -1,12 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/svg/JS.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container heder-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#My contacts" class="nav-link">My contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About myself" class="nav-link">About myself</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Code example" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Experience(Projects)" class="nav-link">Experience(Projects)</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Language" class="nav-link">Language</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main-container">
+        <section class="section main-section" id="profile">
+          <img src="assets/img/My photo.jpg" alt="My Photo" class="my-photo" />
+          <div class="profile-title">
+            <h1 class="main-title">Andrei Bondarev</h1>
+            <h2 class="sub-title">student</h2>
+          </div>
+        </section>
+        <section class="section" id="My contacts">
+          <h2 class="section-title">My contacts</h2>
+          <ul class="section-list">
+            <li class="list-item">
+              Viber, WhatsApp:
+              <a href="tel:+375295749741" title="phone" class="link">+375 (29) 574-97-41</a>
+            </li>
+            <li class="list-item">
+              email:
+              <a href="bondarevandre@gmail.com" title="email" class="link">bondarevandre@gmail.com</a>
+            </li>
+            <li class="list-item">
+              Discord:
+              <a href="https://discord.gg/EEZ56u6A" title="discord" class="link">Sir-Solni</a>
+            </li>
+        </ul>
+        </section>
+
+        <section class="section" id="About myself">
+            <h2 class="section-title">About myself</h2>
+               <p class="indent">I study JS because I'm interested in it and I want to change my profession in the future.</p>
+          </section>
+
+          <section class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>
+                CSS (Basic)   
+                </li>
+                <li>
+                HTML (Basic)
+                </li>
+                <li>
+                JS (Basic)
+                </li>
+            </ul>
+               <p class="indent">I do not have great programming skills, but I am working on it.</p>
+          </section>
+
+          <section class="section" id="Code example">
+            <h2 class="section-title">Code example</h2>
+            <pre class="code"><code>
+                function even_or_odd(number) {
+                if (number % 2 == 0){
+                  return 'Even';
+                }else {
+                  return 'Odd'
+                }
+              }
+            </code></pre>  
+          </section>
+
+          <section class="section" id="Experience(Projects)">
+            <h2 class="section-title">Experience(Projects)</h2>
+                <a href="https://sir-solni.github.io/rsschool-cv/">My CV</a>
+               <p class="indent">I am currently working as the head of the corporate sales department in a large organization.
+                Took a course on JS at QAForEveryone.</p>
+          </section>
+          
+          <section class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+               <p class="indent">I graduated from the Belarusian Technical University with a degree in Industrial and Civil Engineering.</p>
+          </section>
+
+          <section class="section" id="Language">
+            <h2 class="section-title">Language</h2>
+               <p class="indent">English level A1 - A2. Every day I study English in the English Galaxy app and watch the course on YouTube. </p>
+          </section>
     
-</body>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          © 2022
+          <a href="https://github.com/Sir-Solni" class="github nav-link"
+            >Andrei Bondarev</a
+          >
+        </div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
 </html>
